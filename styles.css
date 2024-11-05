@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#card {
+    margin: 10%;
+    display: block;
+}
+
+#gimme {
+    background-color: gray;
+}
+
+#reset {
+    background-color: grey;
+}
